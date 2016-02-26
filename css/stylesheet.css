@@ -1,0 +1,268 @@
+body {
+    height: 2000px;
+    overflow-x: hidden;
+    border: 10px double black
+}
+.navwrap {
+    position: fixed;
+    width: 380px;
+    /* 	height: 500px; */
+    
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    /* This line and the next line are not necessary unless you need IE6 support */
+    
+    height: 100%;
+    margin: 0 auto -155px;
+    /* the bottom margin is the negative value of the footer's height */
+}
+.footer,
+.push {
+    height: 155px;
+    /* .push must be the same height as .footer */
+    
+    position: fixed;
+}
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 1pt;
+    font-size: 48pt;
+    margin-top: 0px;
+    line-height: 48pt;
+    background: -webkit-linear-gradient(#ff6666, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.none {
+    pointer-events: none;
+    position
+}
+a {
+    color: rgba(0, 0, 255, 0.8);
+    text-decoration: none;
+    pointer-events: all !important;
+}
+a:hover {
+    opacity: .5;
+    -webkit-transition: all .3s;
+}
+img {
+    z-index: -50;
+    position: relative;
+    opacity: 1;
+    -webkit-transition: all .3s;
+}
+.p1 {
+    position: absolute;
+    /* 	width: 200px; */
+    
+    height: 200px;
+    top: 20%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -250px;
+    overflow: hidden;
+    /* 	background-color: green; */
+    
+    text-align: center;
+}
+.visible {
+    opacity: 1 !important;
+}
+.lighten {
+    opacity: .2 !important;
+}
+.p1 .text {
+    /*
+	position:absolute;
+bottom:45px;
+*/
+    /* left: 25px; */
+    
+    opacity: 0;
+    z-index: 50;
+    font-size: 15pt;
+    color: black;
+    margin-top: -120px;
+}
+#p1 {
+    overflow-x: scroll;
+}
+#p2 {
+    top: 80%;
+    left: 35%;
+}
+#p3 {
+    top: 800px;
+    left: 80%;
+}
+#p4 {
+    top: 900px;
+    left: 30%;
+}
+#p5 {
+    top: 1100px;
+    left: 50%;
+}
+#p6 {
+    top: 50%;
+    left: 95%;
+}
+#p7 {
+    top: 50%;
+    left: 27%;
+}
+#p8 {
+    top: 1400px;
+    left: 35%;
+}
+#p9 {
+    top: 1200px;
+    left: 90%;
+}
+#p10 {
+    top: 1600px;
+    left: 25%;
+}
+#p11 {
+    top: 1900px;
+    left: 55%;
+}
+#p12 {
+    top: 1600px;
+    left: 85%;
+}
+p {
+    margin-top: -30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+@media(max-width:600px) {
+	body {
+    height: 2000px;
+    overflow-x: hidden;
+    border: none;
+}
+	
+    .navwrap {
+        position: fixed;
+        width: 300px;
+        /* 	height: 500px; */
+        
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -150px;
+        overflow: hidden;
+        z-index: 1;
+        pointer-events: none;
+    }
+    
+    .p1 {
+    position: absolute;
+    /* 	width: 200px; */
+    
+    height: 200px;
+    top: 20%;
+    left: 60%;
+    margin-top: -100px;
+    margin-left: -250px;
+    overflow: hidden;
+    /* 	background-color: green; */
+    
+    text-align: center;
+}
+
+    h1 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        letter-spacing: 1pt;
+        font-size: 30pt;
+        margin-top: 0px;
+        line-height: 30pt;
+        background: -webkit-linear-gradient(#ff6666, blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #p1 {
+        overflow-x: scroll;
+    }
+    #p2 {
+        top: 80%;
+        left: 65%;
+    }
+    #p3 {
+        top: 800px;
+        left: 110%;
+    }
+    #p4 {
+        top: 900px;
+        left: 50%;
+    }
+    #p5 {
+        top: 1100px;
+        left: 60%;
+    }
+    #p6 {
+        top: 50%;
+        left: 115%;
+    }
+    #p7 {
+        top: 50%;
+        left: 57%;
+    }
+    #p8 {
+        top: 1400px;
+        left: 35%;
+    }
+    #p9 {
+        top: 1200px;
+        left: 120%;
+    }
+    #p10 {
+        top: 1600px;
+        left: 55%;
+    }
+    #p11 {
+        top: 1900px;
+        left: 65%;
+    }
+    #p12 {
+        top: 1600px;
+        left: 105%;
+    }
+    p {
+        margin-top: -15px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 10pt;
+        font-weight: 700;
+    }
+    
+    .p1 .text {
+    /*
+	position:absolute;
+bottom:45px;
+*/
+    /* left: 25px; */
+    
+    opacity: 0;
+    z-index: 50;
+    font-size: 12pt;
+    color: black;
+    margin-top: -120px;
+}
+}
