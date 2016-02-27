@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		body {
+		overflow-x: hidden;
+		overflow-y: hidden;
+		background-color: white;
+		border: 9px double black
+		}
+		.div {
+			height: 610px;
+			width:99vw;
+			overflow-x: hidden;
+		}
+		
+.sub{
+	margin-top: -25px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 700;
+
+	
+}
+		
+		h1 {text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	letter-spacing: 1pt;
+	font-size: 48pt;
+	margin-top: 0px;
+	line-height: 48pt;
+	padding-top: 20px;
+	  background: -webkit-linear-gradient(#ff6666, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+	
+}
+
+p{font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 14pt; 
+	line-height: 18pt;}
+.full {
+	width: 90%;
+	margin:5%;
+	text-align: center;
+
+	
+}
+
+
+.cycle-slideshow {
+	width: 90%;
+	margin: 0 auto;
+	
+
+	
+}
+
+.cycle-slideshow div{
+	width:100%;
+	
+	cursor: e-resize;
+	
+}
+
+#non {
+	box-shadow: none;
+}
+.cycle-slideshow div img{
+	width:100%;
+	box-shadow: 2px 2px 20px 2px rgba(81, 81, 81, 0.39);
+
+}
+
+
+video {
+	width:90%;
+	margin-left: 5%;
+	
+}
+
+.smaller {width:30%;
+	margin-left:35%;
+}
+.half {
+/* 	background-color: yellow; */
+	width:45%;
+	float:left;
+	margin: 20px;
+}
+/*
+.overflow {
+	height:1000px;
+	overflow-x: scroll;
+}
+*/
+a {
+    color: rgba(0, 0, 255, 0.8);
+    text-decoration: none;
+    pointer-events: all !important;
+    font-family: sans-serif;
+	font-weight: 700;
+	color:blue;
+	font-size: 12pt;
+    
+}
+a:hover {
+    opacity: .5;
+    -webkit-transition: all .3s;
+}
+
+@media (max-width: 850px) {
+	.half {
+		width:40%;
+		margin:30px;
+		
+	}
+}
+
+@media (max-width: 650px) {
+	.half {
+		width:90%;
+		margin:10px 5% -20px 5%;
+		
+	}
+	
+	 h1 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        letter-spacing: 1pt;
+        font-size: 30pt;
+        margin-top: 0px;
+        line-height: 30pt;
+        background: -webkit-linear-gradient(#ff6666, blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .sub{
+	margin-top: -30px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 12pt;
+
+	
+}
+
+.smaller {width:55%;
+	margin-left:20%;
+}
+
+.cycle-slideshow div img{
+	width:95%;
+	box-shadow: 2px 2px 20px 2px rgba(81, 81, 81, 0.39);
+
+}
+	
+}
+
+@media (max-width:350px) {
+	.par {
+		width:250px !important;
+	}
+}
+		</style>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+		<script>
+			$(document).ready(function{
+				$('.cycleslideshow').onclick('next');
+			})
+		</script>
+	</head>
+	<body class=".body">
+		<div class="div">
+		
+		<h1>Citizen + Virtual</h1>
+		<p class="sub">Workshop / Event Series on Digital Citizenship</p>
+		<div class="half"><p class="par">During the month of January, I directed a 5-Week Workshop Series between Brown University, Rhode Island School of Design, Massachusetts Institute of Technology, and Boston University called "Citizen + Virtual." The workshop was the third in the series and dealt with themes of Digital Citizenship. The Coordinators along with the 14 Participants chosen from Brown, RISD, and MIT met every Saturday at one of the four schools to deal with these topics more in depth. <br/><br/></p></div>
+		<div class="half"><p class="par">Each day consisted of theory workshops, skill-based workshops and a guest speaker from the area. Along with this, participants also partnered up into teams and worked on group based projects that ranged from commentary on decentralized identity on the internet to speculative futures about digital technology's effect on relationships (<a href="http://prntr.love/" >See here</a>) culminating in public events such as a movie screening and a final exhibit during the 5th week. All assets were designed by me unless stated otherwise.<br/> <br/></p></div>
+<!-- 		<div class="half"></div> -->
+		<div class="full"><p class="par"><a href="http://steamwith.us/citizenvirtual/"> Learn more about Citizen + Virtal Here</a>. <br/> Read about Citizen + Virtual in press such as <a href="http://our.risd.edu/post/139357713794/virtual-living">Our RISD</a>
+		<p class="sub"><small><small><br/>Click through the photos below to see the documentation</small></small></p></div>
+		<div class="cycle-slideshow" 
+			data-cycle-slides="> div"
+			data-cycle-timeout="0"
+			data-cycle-next="> div"
+				>
+			<div>
+				<img id="non" src="../img/CV1.jpg">
+				<p class="sub">
+						<small><small><br/>Citizen + Virtual Logo
+					</small></small>
+				</p>
+			</div>
+			<div> 
+				<img src="../img/CV2.jpg">
+				<p class="sub">
+					<small><small><br/>Poster Promoting the Workshop
+					</small></small>
+				</p>
+			</div>
+			<div> <img src="../img/HM6.jpg">
+				<p class="sub">
+						<small><small><br/>Shabu-Shabu
+					</small></small>
+				</p>
+			</div>
+			<div> <img src="../img/HM3.jpg">
+				<p class="sub">
+						<small><small><br/>Pancake Sunday
+					</small></small>
+				</p>
+			</div>
+			<div> <img src="../img/hm7.jpg">
+				<p class="sub">
+						<small><small><br/>Pancake Sunday
+					</small></small>
+				</p>
+			</div>
+			<div> <img src="../img/HM4.jpg">
+				<p class="sub">
+						<small><small><br/>Grandma's Dish
+					</small></small>
+				</p>
+			</div>
+			<div> <img src="../img/HM8.jpg">
+				<p class="sub">
+						<small><small><br/>Grandma's Dish
+					</small></small>
+				</p>
+			</div>
+			<div> <img src="../img/HM5.jpg">
+				<p class="sub">
+						<small><small><br/>Butter Chicken Masala
+					</small></small>
+				</p>
+			</div>
+			<div> <img src="../img/HM9.jpg">
+				<p class="sub">
+						<small><small><br/>Butter Chicken Masala
+					</small></small>
+				</p>
+			</div>
+			
+		</div>
+	
+		</div>
+		</div>
+		</div>
+	</body>
+</html>
