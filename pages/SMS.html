@@ -37,6 +37,9 @@
    
 	
 }
+.margin {
+	margin-bottom: 10%;
+}
 
 p{font-family: 'Playfair Display', serif;
 	font-weight: 400;
@@ -84,8 +87,9 @@ video {
 	
 }
 
-.smaller {width:30%;
+.smaller {width:30% !important;
 	margin-left:35%;
+
 }
 .half {
 /* 	background-color: yellow; */
@@ -148,11 +152,12 @@ a:hover {
 	font-family: sans-serif;
 	font-weight: 700;
 	font-size: 12pt;
+	padding: 20px;
 
 	
 }
 
-.smaller {width:55%;
+.smaller {width:55% !important;
 	margin-left:20%;
 }
 
@@ -181,60 +186,64 @@ a:hover {
 	<body class=".body">
 		<div class="div">
 		
-		<h1>Hack@Brown 2015</h1>
-		<p class="sub">Designing for Brown's 2nd Annual Hack-A-Thon</p>
-		<p class="sub"><small><small><br/>Click through the photos below to see the documentation</small></small></p>
+		<h1>Rethinking SMS</h1>
+		<p class="sub">Non-Disruptive Redesign of Messages </p>
+		<p class="sub"><small><small>Scroll to view project<br/></small></small></p>
+<!--
 		<div class="cycle-slideshow" 
 			data-cycle-slides="> div"
 			data-cycle-timeout="0"
 			data-cycle-next="> div"
 				>
 			<div>
-				<img id="non" src="../img/HB1.jpg">
-				<p class="sub">
-						<small><small><br/>Hack@Brown Logo (by Chen, Me and Chelsea)
-					</small></small>
-				</p>
-			</div>
-			<div> 
-				<video autoplay loop>
-			<source src="../img/HAB.mp4">
+-->			<div class="margin">
+				<video class="smaller" autoplay loop>
+			<source src="../img/SMS1.mp4">
 		</video>
 				<p class="sub">
-					<small><small><br/>Hack@Brown Website (by Chen, Me and Chelsea)
+						<small><small><br/>Setting a Focus so messages are Queued while you work. 
 					</small></small>
 				</p>
-			</div>
-			<div> <img src="../img/HB2.jpg">
-				<p class="sub">
-						<small><small><br/> Unreleased Posters (by Chen and Me)
-					</small></small>
-				</p>
-			</div>
-			<div> <img src="../img/HB3.jpg">
-				<p class="sub">
-						<small><small><br/>T-Shirts (By Me)
-					</small></small>
-				</p>
-			</div>
-			<div> <img src="../img/HB4.jpg">
-				<p class="sub">
-						<small><small><br/>Event Photos
-					</small></small>
-				</p>
-			</div>
-			<div> <img src="../img/HB5.jpg">
-				<p class="sub">
-						<small><small><br/>Event Photos
-					</small></small>
-				</p>
-			</div>			
-		</div>
+</div>
+<div class="margin">
+					<video class="smaller" autoplay loop>
+			<source src="../img/SMS2.mp4">
+		</video>
 
-		<div class="half"><p class="par">After a successful inaugural year, I joined Hack@Brown to work on their branding and design for the 2015 Hack-a-thon with <a href="http://chelseawang.com/" target="_blank">Chelsea Wang</a>, <a href="http://chen.strikingly.com/" target="_blank" >Chen Ye</a>, and <a href="http://marlenamorshead.com/" target="_blank">Marlena Moreshead</a>. Since the first year was a lot about getting the hack-a-thon stable in the Brown Community. It was up the 2015 Design team to firmly cement Hack@Brown's image against all the other Hack-a-thons and make the brand more consistent than it had been it's first year. Along with this, we also had to take into account where Hack@Brown's mission as a hack-a-thon for everyone. <br/><br/></p></div>
-		<div class="half"><p class="par"> Not just Computer Science Majors and Designers but also for Painters and Biology majors.This shows in logo and colors. The Hack@Brown claw is made up of many different colored triangles to show different majors and walks of life coming together for the Hack-a-thon. As well as the colors chosen are softer to be more inviting and friendly. After coming up with the logo, we translated the brand across all different sort of media from web to posters to shirts and booklets.<br/><br/><br/> <br/><br/></p></div>
-<!-- 		<div class="half"></div> -->
-		<div class="full"><p class="par"><a href="https://medium.com/hack-at-brown/designing-hack-brown-2015-c05209586fcc#.suj2k9ys3/" target="_blank"> Read the Medium Write-Up!</a>. <br/> Or Check out the 2015 Website <a href="http://2015.hackatbrown.org/" target="_blank">Here</a>
+				<p class="sub">
+						<small><small><br/>Sending out Messages to someone in Focus lets you know they're busy and will receive your message later.
+					</small></small>
+				</p>
+</div>
+
+					<video class="smaller" autoplay loop>
+			<source src="../img/DISRUPT.mp4">
+		</video>
+				<p class="sub">
+						<small><small><br/>Is it an emergency? If so, you can send the message right now by swiping up.
+					</small></small>
+				</p>
+<!--
+			</div>
+			<div> 
+				<img class="smaller" id="non" src="../img/MIR2.gif">
+				<p class="sub">
+					<small><small><br/>Part 2: Card Metaphors
+					</small></small>
+				</p>
+			</div>
+			<div> <img class="smaller" id="non" src="../img/MIR3.gif">
+				<p class="sub">
+						<small><small><br/> Part 3: Layering <br/><small>(Note: Does not work on Android Phones for the time being)</small>
+					</small></small>
+				</p>
+			</div>
+-->
+<!-- 					</div> -->
+
+		<div class="full" style="text-align: left !important"><p class="par">This was the final project for my User Interfaces class at Brown University. The idea is an interpretation of Tristan Harris' <a href="http://timewellspent.io/">Time Well Spent Manifesto</a> to design interfaces that are more ethical and considerate to a person's needs and life. Along with this another initiative of the project was to rethink how we can interact with the phone in ways more native and natural to it as opposed to tapping buttons which is where the swiping interface developed from. Similarly to how <a href="http://www.dontclick.it/" target="_blank">Don't Click It</a> explores hovering to interface with a web browser. Rethink SMS was designed by me. The Prototype was coded by Annalia Sunderland on FramerJS. Copy for the website & presentation was written by Elbert Wang and Daniel Glauber.<br/><br/></p></div>
+	
+		<div class="full"><p class="par"> <a href="http://kevincadena.com/sms/" target="_blank"> You can see the project website/test it for yourself here</a>
 		</div>
 			
 		</div>
